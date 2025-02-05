@@ -32,6 +32,9 @@ sudo apt install git python3 python3-pip python3-venv \
 
 ### Clone the Repository
 ```bash
+git clone --recursive https://github.com/PX4/PX4-Autopilot.git
+cd PX4-Autopilot
+bash Tools/setup/ubuntu.sh
 git clone https://github.com/jonathanvineet/vj_drone.git
 cd vj_drone
 ```
